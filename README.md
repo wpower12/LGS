@@ -1,5 +1,7 @@
 # Lattice Gas Simulation
 
+![Example](lgs_ex.png)
+
 A lattice gas simulation is a type of cellular automata that simulates the behaviour of gas particles.  Particles of gas are constrained to a regular lattice.  They can exist with one of four possible velocities, corresponding to the four axis' of the grid.  Only one particle of a given velocity can occupy a node.  The simulation updates in two steps, first particles propagate along the lattice, and then collisions are resolved.
 
 The simulation graphically represents the particles as a density.  Each cell painted to the screen actually represents many individual nodes of the lattice (these are all parameters that can be tuned in the lgs_core class).  The darker the cell, the higher the number of particles.
