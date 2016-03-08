@@ -21,3 +21,5 @@ numpy
 Download, then:
 python lgs.py
 ```
+
+![Console Example](console_ex.png)
